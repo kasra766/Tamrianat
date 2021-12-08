@@ -1,5 +1,4 @@
-﻿
-export function isBalance(input) {
+﻿function isBalance(input) {
   let result = null;
   let stack = [];
 
@@ -46,3 +45,5 @@ export function isBalance(input) {
   }
   return stack.length === 0;
 }
+
+export default isBalance;

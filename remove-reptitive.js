@@ -1,4 +1,4 @@
-﻿export function removerRepetitive(string) {
+﻿function removerRepetitive(string) {
   let result = "";
   if (string.length <= 1) {
     result = string;
@@ -12,3 +12,5 @@
     return result;
   }
 }
+
+export default removerRepetitive;

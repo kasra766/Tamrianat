@@ -1,4 +1,4 @@
-﻿export function operations(ops) {
+﻿function operations(ops) {
   let result = 0;
 
   let strArray = ops.split(" ");
@@ -36,3 +36,5 @@
   }
   return result;
 }
+
+export default operations;

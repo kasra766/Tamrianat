@@ -1,4 +1,4 @@
-﻿export function encoder ({inputString, repeatCount}) {
+﻿function encoder ({inputString, repeatCount}) {
 	const encodeHelper = (inputString, counter) => {
 	  let result = "";
 
@@ -23,3 +23,5 @@
 	
 	return result;
 };
+
+export default encoder;

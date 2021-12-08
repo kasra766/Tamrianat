@@ -1,4 +1,4 @@
-﻿export function getRepeatedInfo(number) {
+﻿function getRepeatedInfo(number) {
   const result = {};
   const newNumber = number.toString();
 
@@ -12,3 +12,5 @@
 
   return result;
 }
+
+export default getRepeatedInfo;

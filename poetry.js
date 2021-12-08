@@ -1,5 +1,4 @@
-﻿
-export function poetry(verse) {
+﻿function poetry(verse) {
   const verses = [
   "به لاله نرگس مخمور گفت وقت سحر  که هر که در صف باغ است صاحب هنریست",
   "بنفشه مژدهٔ نوروز میدهد ما را  شکوفه را ز خزان وز مهرگان خبریست",
@@ -64,3 +63,5 @@ export function poetry(verse) {
     }
   }
 }
+
+export default poetry;
